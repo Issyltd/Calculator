@@ -1,0 +1,80 @@
+  @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+  margin: 0;
+  padding: 5px;
+  box-sizing: center;
+}
+
+body {
+  height: 100vh;
+  background: #4e1500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Poppins", sans-serif;
+}
+
+.screen {
+  margin-bottom: 4rem;
+  display: flex;
+  align-items: center;
+  height: 100%;
+  text-align: left;
+}
+
+.text {
+  color: white;
+  font-size: 2.5rem;
+  flex-grow: 1;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  align-items: center;
+  justify-content: flex-end;
+  transition: font-size 0.1s;
+}
+
+.wrapper {
+  background: #000000;
+  width: 20rem;
+  padding: 2rem;
+  margin-top: 4rem;
+  border-radius: 1rem;
+  box-shadow: 0px 9px 15px -3px rgba(0, 0, 0, 1);
+}
+
+.buttonBox {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: .5rem;
+}
+
+.button {
+  background: #454545;
+  height: 3.5rem;
+  padding: 10px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  color: #ffffff;
+  border: none;
+  font-size: 1.5rem;
+}
+
+.button:hover {
+  border: 2px double #ff4400;
+  transform: scale(0.9); 
+  transition-duration: 0.3s;
+}
+
+.equals {
+  background: #ff6b35;
+  grid-column: 3/5;
+}
+
+.opt {
+  background: #cdcdcd;
+}
