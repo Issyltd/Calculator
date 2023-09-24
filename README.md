@@ -1,5 +1,5 @@
 # **React Project 3 - Calculator**
-Completed: 23/09/22
+Completed: 24/09/22
 &nbsp;
 
 ## What is This Project?
